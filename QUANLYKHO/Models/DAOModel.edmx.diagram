@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="edbcc324e3404c6c982e853d4818646b" Name="Diagram1">
+        <EntityTypeShape EntityType="QUANLYKHOModel.DanhMucThietBi" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYKHOModel.NhaCungCap" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYKHOModel.PhieuNhapHang" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYKHOModel.PhieuXuatHang" Width="1.5" PointX="6" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYKHOModel.TaiKhoan" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYKHOModel.ThongTinThietBi" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYKHOModel.VaiTro" Width="1.5" PointX="1.5" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYKHOModel.ChiTietPhieuNhap" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYKHOModel.ChiTietPhieuXuat" Width="1.5" PointX="8.25" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="QUANLYKHOModel.FK__ThongTinT__maDan__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYKHOModel.FK__ThongTinT__maNha__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYKHOModel.FK__ChiTietPh__maPhi__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYKHOModel.FK__PhieuNhap__maNgu__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYKHOModel.FK__ChiTietPh__maPhi__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYKHOModel.FK__PhieuXuat__maNgu__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYKHOModel.FK__TaiKhoan__trangT__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYKHOModel.FK__ChiTietPh__maThi__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYKHOModel.FK__ChiTietPh__maThi__3E52440B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
